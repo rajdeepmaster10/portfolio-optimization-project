@@ -1,4 +1,5 @@
 # Portfolio Optimization using Python
+A data-driven portfolio optimization and backtesting project built using Python.
 
 ## 📌 Description
 This project analyzes stock market data and builds optimal portfolios using Modern Portfolio Theory.
