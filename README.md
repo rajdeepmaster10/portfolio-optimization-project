@@ -40,4 +40,49 @@ Additionally, a momentum-based trading strategy is implemented and rigorously ba
 ---
 
 ## ▶️ How to Run
-1. Install dependencies:
+1. Install dependencies:pip install -r requirements.txt
+2. Open the notebook  
+3. Run all cells  
+
+---
+
+## 📊 Sample Output
+
+
+_Add a screenshot of your efficient frontier / performance graph here_
+
+---
+
+## 📈 Key Insight
+The optimal portfolio is not the one with the highest return or lowest risk,  
+but the one that maximizes risk-adjusted return (Sharpe Ratio).
+
+---
+
+## 📌 Results & Insights
+- Portfolio optimization effectively captured the trade-off between risk and return  
+- A momentum-based trading strategy was implemented using 30-day returns as a signal  
+- The strategy was backtested against an equal-weight benchmark  
+- Results showed that the strategy underperformed, indicating limited predictive power of the chosen momentum signal  
+- This highlights the importance of rigorous backtesting and robust signal design in quantitative finance  
+
+---
+
+## ⚠️ Limitations
+- Limited number of stocks used (small universe)  
+- Single-factor strategy (momentum only)  
+- No transaction cost modeling  
+
+---
+
+## 🚀 Future Work
+- Expand the stock universe to improve diversification and signal effectiveness  
+- Explore multi-factor strategies (momentum, volatility, value)  
+- Incorporate machine learning models for return prediction  
+- Build an interactive dashboard using Streamlit  
+
+---
+
+## 🧠 Key Learning
+Not all strategies outperform the market.  
+Systematic backtesting is essential to validate any investment approach before deployment.
