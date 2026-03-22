@@ -48,8 +48,13 @@ Additionally, a momentum-based trading strategy is implemented and rigorously ba
 
 ## 📊 Sample Output
 
+### Efficient Frontier
 
-_Add a screenshot of your efficient frontier / performance graph here_
+![Efficient Frontier](efficient_frontier.png)
+
+### Strategy vs Benchmark Performance
+
+![Strategy Performance](performance_plot.png)
 
 ---
 
